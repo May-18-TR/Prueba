@@ -1,14 +1,14 @@
-project:
+    project:
   type: website
   output-dir: docs
 
 website:
-  title: "Prueba de Mayra"
+  title: "Proyecto Piña"
   navbar:
     left:
       - href: index.qmd
         text: Inicio
-
-format:
-  html:
-    theme: cosmo
+      - href: resultados.qmd
+        text: Resultados
+      - href: discusion.qmd
+        text: Discusión
